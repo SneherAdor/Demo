@@ -1,0 +1,8 @@
+
+
+$productImages = $request->file('inputName');
+$name = $productImage->geClientOriginalName();
+$uploadPath = 'upload path';
+$productImage->move($uploadPath, $name);
+
+$imageUrl = $uploadPath.$name;

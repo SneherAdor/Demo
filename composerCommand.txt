@@ -1,0 +1,10 @@
+
+
+Making Controller
+==================================
+php artisan make:controller CategoryController
+
+
+Making model with database file
+==================================
+php artisan make:model Category -m
